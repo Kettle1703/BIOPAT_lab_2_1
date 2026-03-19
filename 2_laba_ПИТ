@@ -1,0 +1,8 @@
+из корневой папки проекта запускаем программу
+
+cd ~/redis_hw/redis_api
+source .venv/bin/activate
+uvicorn app.main:app --reload
+
+
+в браузере переходим по адресу
